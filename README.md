@@ -10,9 +10,11 @@ In this project, we delve into the task of book rating prediction through the le
 
 **Semi-Supervised Prediction:** Leveraging the trained Random Forest base model, we employ multiple semi-supervised algorithms to predict book ratings for unlabeled data. The algorithms we explore include:
 
- **SelfTrainingClassifier:** An iterative approach that labels unlabeled instances based on the base model's predictions.
- **LabelPropagation:** A graph-based algorithm that propagates labels among similar data points.
- **LabelSpreading:** A variant of LabelPropagation with smoothing effects.
+   - **SelfTrainingClassifier:** An iterative approach that labels unlabeled instances based on the base model's predictions.
+
+   - **LabelPropagation:** A graph-based algorithm that propagates labels among similar data points.
+
+   - **LabelSpreading:** A variant of LabelPropagation with smoothing effects.
 
 ## Contents
 
